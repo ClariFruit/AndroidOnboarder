@@ -185,6 +185,7 @@ public abstract class OnboarderActivity extends AppCompatActivity implements Vie
         circleIndicatorView.setCurrentPage(position);
         ibNext.setVisibility(position == lastPagePosition && !this.shouldUseFloatingActionButton ? View.GONE : View.VISIBLE);
         btnFinish.setVisibility(position == lastPagePosition && !this.shouldUseFloatingActionButton ? View.VISIBLE : View.GONE);
+        btnSkip.setVisibility(position != lastPagePosition || this.shouldUseFloatingActionButton ? View.VISIBLE : View.GONE);
         if (this.shouldUseFloatingActionButton)
             this.fab.setImageResource(position == lastPagePosition ? R.drawable.ic_done_white_24dp : R.drawable.ic_arrow_forward_white_24dp);
     }
