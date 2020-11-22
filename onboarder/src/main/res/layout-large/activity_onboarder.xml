@@ -4,15 +4,11 @@
     android:id="@+id/cl_onboarder"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_centerInParent="true"
-    android:layout_marginBottom="60dp"
-    android:layout_marginEnd="40dp"
-    android:layout_marginStart="40dp"
-    android:layout_marginTop="60dp"
+    android:layout_width="400dp"
+    android:layout_height="450dp"
     android:background="@drawable/bg_guidance"
     android:orientation="vertical"
+    android:layout_gravity="center"
     tools:context=".OnboarderActivity">
 
     <FrameLayout
@@ -52,7 +48,7 @@
         android:layout_gravity="bottom"
         android:layout_alignParentBottom="true"
 
-    >
+        >
 
 
         <TextView
@@ -66,23 +62,23 @@
 
 
         <!--<Button-->
-            <!--android:id="@+id/btn_finish"-->
-            <!--style="@style/Widget.AppCompat.Button.Borderless"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_gravity="end|center"-->
-            <!--android:text="@string/button.finish"-->
-            <!--android:textColor="@android:color/black"-->
-            <!--android:visibility="gone"/>-->
+        <!--android:id="@+id/btn_finish"-->
+        <!--style="@style/Widget.AppCompat.Button.Borderless"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="end|center"-->
+        <!--android:text="@string/button.finish"-->
+        <!--android:textColor="@android:color/black"-->
+        <!--android:visibility="gone"/>-->
 
         <!--<ImageButton-->
-            <!--android:id="@+id/ib_next"-->
-            <!--style="@style/Widget.AppCompat.Button.Borderless"-->
-            <!--android:layout_width="wrap_content"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_gravity="end|center"-->
-            <!--android:padding="@dimen/activity_margin"-->
-            <!--android:src="@drawable/ic_chevron_right"-->
+        <!--android:id="@+id/ib_next"-->
+        <!--style="@style/Widget.AppCompat.Button.Borderless"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="end|center"-->
+        <!--android:padding="@dimen/activity_margin"-->
+        <!--android:src="@drawable/ic_chevron_right"-->
         <!--/>-->
 
     </FrameLayout>

@@ -20,7 +20,6 @@
             android:layout_gravity="center_horizontal"
             android:adjustViewBounds="true"
             android:contentDescription="@null"
-            android:layout_centerHorizontal="true"
             android:layout_marginTop="15dp"
             tools:background="@drawable/die_for_music" />
 
